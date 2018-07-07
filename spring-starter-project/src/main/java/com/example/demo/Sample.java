@@ -5,6 +5,7 @@ public class Sample {
 
 	private String ename;
 	private String department;
+	private String location;
 	
 	/**
 	 * 
@@ -33,6 +34,20 @@ public class Sample {
 	 */
 	public void setDepartment(String department) {
 		this.department = department;
+	}
+	/**
+	 * 
+	 * @return	 location
+	 */
+	public String getLocation() {
+		return location;
+	}
+	/**
+	 * 
+	 * @param location String
+	 */
+	public void setLocation(String location) {
+		this.location = location;
 	}
 
 }
