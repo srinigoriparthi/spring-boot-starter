@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringStarterProjectApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Yes Rao !!");	
+
+		System.out.println("Yes Rao !!");
+		System.out.println("Yes GSR !!");	
+
 		//The below line starts the Application.
 		SpringApplication.run(SpringStarterProjectApplication.class, args);
 	}
